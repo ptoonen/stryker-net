@@ -41,7 +41,7 @@ jobs:
   - task: DotNetCoreCLI@2
     displayName: 'Build the CLI Solution for Analysis'
     inputs:
-    projects: '**/Stryker.CLI.sln'
+      projects: '**/Stryker.CLI.sln'
 
   - task: DotNetCoreCLI@2
     displayName: 'Run unit tests'
